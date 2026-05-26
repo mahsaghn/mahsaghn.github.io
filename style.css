@@ -6,7 +6,6 @@
     --color-success: #758B7C;
     --color-background: #FFFFFF;
     --color-text: #090B0C;
-    --site-width: 800px;
 }
 
 .dark-header{
@@ -34,17 +33,26 @@ html{
     font-family: sans-serif;
     font-size: 16px;
 }
+main a{
+  color: var(--color-primary-2) !important;
+  text-decoration: none;
+}
+
 
 .main-body{
     padding-top: 30px;
     max-width: var(--site-width);
     align-content: center;
-    margin: 0 auto;   
+    margin: 0 auto;
+    margin-left: 10px;   
+    margin-right: 10px;   
     height: 100%;
 }
 
 .body-content{
-    z-index: -1;
+    max-width: 800px;
+    margin: 0 auto;
+    /* z-index: -1; */
     position: relative;
     justify-content: center;
     /* top:70px; */
